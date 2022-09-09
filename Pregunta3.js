@@ -9,4 +9,6 @@ var cadena = "hola como estas"
 var indices = [];
 for (var i = 0; i < cadena.length; i++) {
     if (cadena[i].toLowerCase() === "o") indices.push(i);
+
 }
+console.log("El carácter “o” se repite " + indices.length + "veces en" + cadena); 
